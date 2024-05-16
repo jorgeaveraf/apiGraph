@@ -25,7 +25,7 @@ SECRET_KEY = '8*^f6irt8$gory*&k&5*cg7l$0gh-$(h1qkn)6p*4u#=7+hlqh'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -81,9 +81,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'imgtxt',
-        'USER': 'postgres',
+        'USER': 'root',
         'PASSWORD': '123456',
-        'HOST': 'localhost',
+        'HOST': '35.233.203.236',
         'PORT': '5432',
     }
 }
