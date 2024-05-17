@@ -81,9 +81,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'imgtxt',
-        'USER': 'root',
+        'USER': 'postgres',
         'PASSWORD': '123456',
-        'HOST': '35.233.203.236',
+        'HOST': '34.172.85.154',
         'PORT': '5432',
     }
 }
