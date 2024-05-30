@@ -83,7 +83,7 @@ DATABASES = {
         'NAME': 'imgtxt',
         'USER': 'postgres',
         'PASSWORD': '123456',
-        'HOST': '34.172.85.154',
+        'HOST': '35.247.110.26',
         'PORT': '5432',
     }
 }

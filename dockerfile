@@ -1,4 +1,4 @@
-FROM jorgeaveraf/graph-api:latest
+FROM python:3
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 RUN mkdir /imgtxt
